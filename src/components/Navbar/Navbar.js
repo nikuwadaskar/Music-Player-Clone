@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "./logo.svg";
 import { ReactComponent as Menu } from "./menu.svg";
@@ -10,17 +10,15 @@ export default function Navbar() {
   function handlemenu() {
     const clas = document.getElementById("menu").getAttribute("class");
     if (!clas.includes("none")) {
-      document.getElementById("menu").setAttribute("class", "menu none");
+      document.getElementById("menu").setAttribute("class", "none");
       document.getElementById("x").setAttribute("class", "menu");
-      document.getElementById("dropdown").setAttribute("class", "dropdown");
-      console.log(clas.includes("none"));
-    } else {
-      document.getElementById("menu").setAttribute("class", "menu");
-      document.getElementById("x").setAttribute("class", "menu none");
       document
         .getElementById("dropdown")
-        .setAttribute("class", "dropdown none");
-      console.log(clas.includes("none"));
+        .setAttribute("class", "dropdown dropdown-links");
+    } else {
+      document.getElementById("menu").setAttribute("class", "menu");
+      document.getElementById("x").setAttribute("class", "none");
+      document.getElementById("dropdown").setAttribute("class", "none");
     }
   }
 
@@ -54,18 +52,16 @@ export default function Navbar() {
           <button className="red">Search</button>
         </div>
       </div>
-      <div id="dropdown" className="dropdown none">
-        <div className="dropdown-links">
-          <Link to="/Hellji" className="link">
-            Home
-          </Link>
-          <Link to="/Hellji" className="link">
-            Home
-          </Link>
-          <Link to="/Hellji" className="link">
-            Home
-          </Link>
-        </div>
+      <div id="dropdown" className="dropdown none dropdown-links">
+        <Link to="/Hellji" className="link">
+          Home
+        </Link>
+        <Link to="/Hellji" className="link">
+          Home
+        </Link>
+        <Link to="/Hellji" className="link">
+          Home
+        </Link>
       </div>
     </>
   );

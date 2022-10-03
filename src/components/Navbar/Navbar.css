@@ -68,11 +68,15 @@ hr {
   height: 18px;
   padding: 0;
 }
+.none {
+  display: none !important;
+}
+.dropdown {
+  position: absolute;
+  z-index: -1;
+}
 
 @media screen and (max-width: 750px) {
-  .none {
-    display: none !important;
-  }
   .links {
     display: none;
   }
@@ -83,6 +87,7 @@ hr {
   }
   .dropdown {
     background-color: #642a0ae0;
+    position: absolute;
     display: flex;
     flex-direction: column;
     width: 100%;
