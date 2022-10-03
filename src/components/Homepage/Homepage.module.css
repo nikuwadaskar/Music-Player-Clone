@@ -1,0 +1,15 @@
+.container {
+  display: block;
+  margin-left: 70px;
+  width: calc(100vw - 70px);
+}
+
+@media screen and (max-width:750px) {
+    .container {
+        display: block;
+        margin-top: 70px;
+        margin-left: 0px;
+        width: calc(100vw - 70px);
+      }
+      
+}
