@@ -1,25 +1,63 @@
 .container {
-  display: block;
+  display: flex;
+  justify-content: center;
   margin-left: 70px;
-  width: calc(100vw - 70px);
+  transition: all 0.4s ease-out;
+  width: calc(100% - 70px);
 }
-
+.red {
+  background-color: red;
+}
+.slider {
+  width: 100%;
+}
+.card {
+  width: 20%;
+  height: 20%;
+}
+.slick-prev,
+.slick-next {
+  display: none !important;
+  background-color: red;
+}
 .one {
   background-color: red;
+  width: 70%;
+  height: 100px;
+  display: none;
 }
 .two {
   background-color: green;
+  width: 70%;
+  height: 100px;
 }
 
 .three {
-  background-color: aqua;
+  background-color: rgb(14, 10, 65);
+  width: 70%;
+  height: 100px;
+}
+.four {
+  background-color: rgb(52, 6, 85);
+  width: 70%;
+  height: 100px;
+}
+.five {
+  background-color: rgb(171, 158, 8);
+  width: 70%;
+  height: 100px;
+}
+.six {
+  background-color: rgb(255, 77, 0);
+  width: 70%;
+  height: 100px;
 }
 
 @media screen and (max-width: 750px) {
   .container {
     display: block;
-    margin-top: 70px;
+    margin-top: 60px;
     margin-left: 0px;
-    width: calc(100vw - 70px);
+    width: 100%;
   }
 }
