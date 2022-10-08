@@ -6,7 +6,3 @@
   right: 0 !important;
   display: none !important;
 }
-.inner {
-  position: relative;
-  z-index: -1;
-}

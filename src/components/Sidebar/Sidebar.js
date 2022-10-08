@@ -8,17 +8,17 @@ export default function Sidebar() {
   return (
     <div className={style.all}>
       <div className={style.sidebar}>
-        <Link to="/" className={style.link}>
+        <Link to="/album" className={style.link}>
           
           <Album /> <br /> <p> Album</p>
         </Link>
-        <Link to="/" className={style.link}>
+        <Link to="/music" className={style.link}>
           <Music /> <br /> <p>Music</p>
         </Link>
-        <Link to="/" className={style.link}>
+        <Link to="/podcast" className={style.link}>
           <Podcast /> <br /> <p> Podcast</p>
         </Link>
-        <Link to="/" className={style.link}>
+        <Link to="/null" className={style.link}>
           NavLink
         </Link>
       </div>

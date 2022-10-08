@@ -1,54 +1,40 @@
-.container {
-  display: flex;
-  justify-content: center;
-  transition: all 0.4s ease-out;
-  width: 100%;
-  margin-bottom: 40px;
-}
-.homepage {
-  width: calc(100% - 102px);
-}
-.slider {
-  width: 100%;
-}
 .one {
   background-color: red;
-  width: 70%;
+  width: 70px;
   height: 150px;
   display: none;
 }
 .two {
   background-color: green;
-  width: 70%;
+  width: 70px;
   height: 150px;
 }
 
 .three {
   background-color: rgb(14, 10, 65);
-  width: 70%;
+  width: 70px;
   height: 150px;
 }
 .four {
   background-color: rgb(52, 6, 85);
-  width: 70%;
+  width: 70px;
   height: 150px;
 }
 .five {
   background-color: rgb(171, 158, 8);
-  width: 70%;
+  width: 70px;
   height: 150px;
 }
 .six {
   background-color: rgb(255, 77, 0);
-  width: 70%;
+  width: 70px;
   height: 150px;
 }
 
 .new {
   background-color: rgb(174, 77, 35);
-
   transition: all 0.4s ease-out;
-  width: 100%;
+  width: calc(100vw - 120px);
 }
 
 @media screen and (max-width: 750px) {
@@ -57,6 +43,7 @@
     margin-left: 0px;
     width: 100%;
   }
+  .new,
   .homepage {
     width: calc(100% - 0px);
   }

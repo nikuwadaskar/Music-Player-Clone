@@ -5,8 +5,6 @@ import { ReactComponent as Menu } from "./menu.svg";
 import { ReactComponent as X } from "./x.svg";
 import style from "./Navbar.module.css";
 export default function Navbar() {
-  // const [size, setSize] = useState(0);
-
   function handlemenu() {
     const clas = document.getElementById("menu").getAttribute("class");
     if (!clas.includes("none")) {
@@ -29,15 +27,15 @@ export default function Navbar() {
           <Logo className={style.logo} />
         </Link>
         <div className={style.links}>
-          <Link to="/Hellji" className={style.link}>
+          <Link to="/" className={style.link}>
             Home
           </Link>
           <hr />
-          <Link to="/Hellji" className={style.link}>
+          <Link to="/" className={style.link}>
             Home
           </Link>
           <hr />
-          <Link to="/Hellji" className={style.link}>
+          <Link to="/" className={style.link}>
             Home
           </Link>
         </div>
@@ -60,13 +58,13 @@ export default function Navbar() {
         id="dropdown"
         className={`${style.dropdown} ${style.none} ${style.dropdownlinks}`}
       >
-        <Link to="/Hellji" className={style.link}>
+        <Link to="/" className={style.link}>
           Home
         </Link>
-        <Link to="/Hellji" className={style.link}>
+        <Link to="/" className={style.link}>
           Home
         </Link>
-        <Link to="/Hellji" className={style.link}>
+        <Link to="/" className={style.link}>
           Home
         </Link>
       </div>

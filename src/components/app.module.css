@@ -1,0 +1,9 @@
+.body {
+  display: flex;
+}
+
+@media screen and (max-width: 750px) {
+  .body {
+    display: block;
+  }
+}

@@ -1,84 +1,22 @@
-import React, { Component } from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import style from './Homepage.module.css'
- export default function  PauseOnHover (){
-  var settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
-    pauseOnHover: true
-  };
+import React from "react";
+import CarasaulHomepage from "./CarasaulHomepage";
+import RecommendateSongs from "./RecommendateSongs";
+import style from "./Homepage.module.css";
+export default function Homepage() {
   return (
-    // <div className="outer">
-      <div className="inner">
-      <div className={style.container}>
-      <Slider {...settings} className={style.slider}>
-        <div className={style.one}>
-          <h3>1</h3>
-        </div>
-        <div className={style.two}>
-          <h3>2</h3>
-        </div>
-        <div className={style.three}>
-          <h3>3</h3>
-        </div>
-        <div className={style.four}>
-          <h3>4</h3>
-        </div>
-        <div className={style.five}>
-          <h3>5</h3>
-        </div>
-        <div className={style.six}>
-          <h3>6</h3>
-        </div>
-      </Slider>
+    <div className={style.homepage}>
+      <CarasaulHomepage />
+      <h1>Recommended songs</h1>
+      <RecommendateSongs />
+      <h1>Saved songs</h1>
+      <RecommendateSongs />
+      <h1>Saved Albums</h1>
+      <RecommendateSongs />
+      <h1>Your Playlist</h1>
+      <RecommendateSongs />
+      <h1>Your Artist</h1>
+      <RecommendateSongs />
+      <h1>Hello</h1>
     </div>
-      </div>
-    // </div>
   );
 }
-
-
-// export default class PauseOnHover extends Component {
-//   render() {
-//     var settings = {
-//       dots: true,
-//       infinite: true,
-//       slidesToShow: 3,
-//       slidesToScroll: 1,
-//       autoplay: true,
-//       autoplaySpeed: 2000,
-//       pauseOnHover: true
-//     };
-//     return (
-//       <div className={style.}>
-//         <h2>Pause On Hover</h2>
-//         <Slider {...settings}>
-//           <div className={style.}>
-//             <h3>1</h3>
-//           </div>
-//           <div className={style.}>
-//             <h3>2</h3>
-//           </div>
-//           <div className={style.}>
-//             <h3>3</h3>
-//           </div>
-//           <div className={style.}>
-//             <h3>4</h3>
-//           </div>
-//           <div className={style.}>
-//             <h3>5</h3>
-//           </div>
-//           <div className={style.}>
-//             <h3>6</h3>
-//           </div>
-//         </Slider>
-//       </div>
-//     );
-//   }
-// }
