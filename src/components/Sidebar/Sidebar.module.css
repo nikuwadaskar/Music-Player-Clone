@@ -29,6 +29,31 @@ a > svg {
   justify-content: center;
   display: flex;
 }
+.activelink {
+  text-decoration: none;
+  color: rgb(236, 230, 230);
+  font-weight: 1000;
+  font-size: 1.3rem;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.404);
+}
+.album {
+  outline: 19px solid rgba(255, 255, 255, 0.404);
+}
+.music {
+  outline: 23px solid rgba(255, 255, 255, 0.404);
+}
+.podcast {
+  outline: 23px solid rgba(255, 255, 255, 0.404);
+}
+.navlink {
+  outline: 23px solid rgba(255, 255, 255, 0.404);
+}
+.btn {
+  background-color: transparent;
+  outline: 0ch;
+}
 @media screen and (max-width: 750px) {
   .sidebar {
     display: flex;
@@ -47,5 +72,17 @@ a > svg {
   }
   p {
     display: none;
+  }
+  .album {
+    outline: 12px solid rgba(255, 255, 255, 0.404);
+  }
+  .music {
+    outline: 12px solid rgba(255, 255, 255, 0.404);
+  }
+  .podcast {
+    outline: 12px solid rgba(255, 255, 255, 0.404);
+  }
+  .navlink {
+    outline: 23px solid rgba(255, 255, 255, 0.404);
   }
 }

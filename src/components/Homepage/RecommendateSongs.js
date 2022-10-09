@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import style from "./Homepage.module.css";
 export default function RecommendateSongs() {
   var settings = {
-    // dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 2,
@@ -17,7 +17,7 @@ export default function RecommendateSongs() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {

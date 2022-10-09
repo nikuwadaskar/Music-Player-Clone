@@ -6,3 +6,9 @@
   right: 0 !important;
   display: none !important;
 }
+.slick-slide {
+/* margin: 0px 7px 0px 7px; */
+}
+.slick-track {
+  height: 118px;
+}

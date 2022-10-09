@@ -1,0 +1,28 @@
+.slick-prev,
+.slick-next {
+  display: none !important;
+  background-color: red;
+}
+.one {
+  background-color: red;
+}
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: rgb(14, 10, 65);
+}
+.four {
+  background-color: rgb(52, 6, 85);
+}
+.five {
+  background-color: rgb(171, 158, 8);
+}
+.six {
+  background-color: rgb(255, 77, 0);
+}
+  
+  .new {
+  /* width: 95%; */
+  }

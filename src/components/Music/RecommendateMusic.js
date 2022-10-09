@@ -3,7 +3,8 @@ import style from "./Music.module.css";
 import Slider from "react-slick";
 export default function RecommendateAlbum() {
   var settings = {
-    // dots: true,
+    dots: false,
+    centerMode: true,
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 2,
@@ -17,7 +18,7 @@ export default function RecommendateAlbum() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
-          dots: true,
+          dots: false,
         },
       },
       {
@@ -25,7 +26,7 @@ export default function RecommendateAlbum() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          initialSlide: 2,
+          initialSlide: 1,
         },
       },
       {

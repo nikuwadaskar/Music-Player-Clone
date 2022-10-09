@@ -4,6 +4,8 @@
   transition: all 0.4s ease-out;
   width: 100%;
   margin-bottom: 40px;
+  margin-top: 40px;
+
 }
 .homepage {
   width: calc(100% - 102px);
@@ -12,41 +14,77 @@
   width: 100%;
 }
 .one {
-  background-color: red;
-  width: 70%;
-  height: 150px;
+  /* background-color: red; */
+  /* width: 70%; */
+  height: 220px;
   display: none;
+  /* background-image: url('https://loremflickr.com/300/300/'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
+
+.oneimg,
+.twoimg,
+.threeimg,
+.fourimg,
+.fiveimg,
+.siximg {
+  background-image: url("https://loremflickr.com/336/220/a");
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.twoimg {
+  background-image: url("https://loremflickr.com/336/220/b");
+}
+.threeimg {
+  background-image: url("https://loremflickr.com/336/220/c");
+}
+.fourimg {
+  background-image: url("https://loremflickr.com/336/220/d");
+}
+.fiveimg {
+  background-image: url("https://loremflickr.com/336/220/e");
+}
+.siximg {
+  background-image: url("https://loremflickr.com/336/220/f");
+}
+
 .two {
   background-color: green;
   width: 70%;
-  height: 150px;
+  height: 220px;
 }
 
 .three {
   background-color: rgb(14, 10, 65);
   width: 70%;
-  height: 150px;
+  height: 220px;
 }
 .four {
   background-color: rgb(52, 6, 85);
   width: 70%;
-  height: 150px;
+  height: 220px;
 }
 .five {
   background-color: rgb(171, 158, 8);
   width: 70%;
-  height: 150px;
+  height: 220px;
 }
 .six {
   background-color: rgb(255, 77, 0);
   width: 70%;
-  height: 150px;
+  height: 220px;
 }
 
 .new {
-  background-color: rgb(174, 77, 35);
-
+  /* background-color: rgb(174, 77, 35); */
+  height: 300px;
   transition: all 0.4s ease-out;
   width: 100%;
 }

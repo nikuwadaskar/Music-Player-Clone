@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { ReactComponent as Logo } from "./logo.svg";
 import { ReactComponent as Menu } from "./menu.svg";
 import { ReactComponent as X } from "./x.svg";
@@ -23,9 +23,9 @@ export default function Navbar() {
   return (
     <>
       <div className={style.nav}>
-        <Link to="/">
+        <NavLink to="/">
           <Logo className={style.logo} />
-        </Link>
+        </NavLink>
         <div className={style.links}>
           <Link to="/" className={style.link}>
             Home

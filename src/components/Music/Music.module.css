@@ -11,41 +11,34 @@
 }
 .one {
   background-color: red;
-  /* width: 70%; */
   height: 150px;
-  display: none;
 }
 .two {
   background-color: green;
-  /* width: 70%; */
   height: 150px;
 }
 
 .three {
   background-color: rgb(14, 10, 65);
-  /* width: 70%; */
   height: 150px;
 }
 .four {
   background-color: rgb(52, 6, 85);
-  /* width: 70%; */
   height: 150px;
 }
 .five {
   background-color: rgb(171, 158, 8);
-  /* width: 70%; */
   height: 150px;
 }
 .six {
   background-color: rgb(255, 77, 0);
-  /* width: 70%; */
   height: 150px;
 }
 
 .new {
   background-color: rgb(174, 77, 35);
   transition: all 0.4s ease-out;
-  width: calc(100vw - 102px);
+  width: calc(100vw - 120px);
 }
 
 @media screen and (max-width: 750px) {
