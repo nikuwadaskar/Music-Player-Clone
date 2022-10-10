@@ -5,6 +5,10 @@ export default function Podcast() {
   return (
     <div>
       <RecommendatePodcast/>
+      <RecommendatePodcast/>
+      <RecommendatePodcast/>
+      <RecommendatePodcast/>
+      <RecommendatePodcast/>
     </div>
   )
 }

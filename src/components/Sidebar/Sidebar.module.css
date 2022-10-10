@@ -45,10 +45,10 @@ a > svg {
   outline: 23px solid rgba(255, 255, 255, 0.404);
 }
 .podcast {
-  outline: 23px solid rgba(255, 255, 255, 0.404);
+  outline: 15px solid rgba(255, 255, 255, 0.404);
 }
 .navlink {
-  outline: 23px solid rgba(255, 255, 255, 0.404);
+  outline: 11px solid rgba(255, 255, 255, 0.404);
 }
 .btn {
   background-color: transparent;
@@ -80,9 +80,9 @@ a > svg {
     outline: 12px solid rgba(255, 255, 255, 0.404);
   }
   .podcast {
-    outline: 12px solid rgba(255, 255, 255, 0.404);
+    outline: 3.5px solid rgba(255, 255, 255, 0.404);
   }
   .navlink {
-    outline: 23px solid rgba(255, 255, 255, 0.404);
+    outline: 18px solid rgba(255, 255, 255, 0.404);
   }
 }

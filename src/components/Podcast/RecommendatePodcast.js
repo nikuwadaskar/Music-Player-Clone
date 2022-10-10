@@ -1,36 +1,96 @@
-import React, { Component } from "react";
+import React from "react";
 import Slider from "react-slick";
 
 import style from "./Podcast.module.css";
 export default function RecommendatePodcast() {
-  const settings = {
-    dots: true,
+  var settings = {
+    dots: false,
+    centerMode: true,
     infinite: true,
-    speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: false,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+    ],
   };
   return (
     <div className={style.new}>
-      <h2> Multiple items </h2>
       <Slider {...settings}>
-      <div className={style.one}>
-          <h3>1</h3>
+        <div className={style.one}>
+          <div className={style.flex}>
+            <div className={style.box}>
+              <div className={style.img}></div>
+              <div className={style.name}>
+                <h1>ABCD</h1>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={style.two}>
-          <h3>2</h3>
+          <div className={style.flex}>
+            <div className={style.box}>
+              <div className={style.img}></div>
+              <div className={style.name}>
+                <h1>ABCD</h1>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={style.three}>
-          <h3>3</h3>
+          <div className={style.flex}>
+            <div className={style.box}>
+              <div className={style.img}></div>
+              <div className={style.name}>
+                <h1>ABCD</h1>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={style.four}>
-          <h3>4</h3>
+          <div className={style.flex}>
+            <div className={style.box}>
+              <div className={style.img}></div>
+              <div className={style.name}>
+                <h1>ABCD</h1>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={style.five}>
-          <h3>5</h3>
+          <div className={style.flex}>
+            <div className={style.box}>
+              <div className={style.img}></div>
+              <div className={style.name}>
+                <h1>ABCD</h1>
+              </div>
+            </div>
+          </div>
         </div>
         <div className={style.six}>
-          <h3>6</h3>
+          <div className={style.flex}>
+            <div className={style.box}>
+              <div className={style.img}></div>
+              <div className={style.name}>
+                <h1>ABCD</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </Slider>
     </div>

@@ -38,22 +38,34 @@ export default function PauseOnHover() {
       <div className={style.container}>
         <Slider {...settings} className={style.slider}>
           <div className={style.one}>
-            <div className={style.oneimg}></div>
+            <div className={style.oneimg}>
+              <img src="https://loremflickr.com/336/220/f" alt="" />
+            </div>
           </div>
           <div className={style.two}>
-            <div className={style.twoimg}></div>
+            <div className={style.twoimg}>
+              <img src="https://loremflickr.com/336/220/a" alt="" />
+            </div>
           </div>
           <div className={style.three}>
-            <div className={style.fiveimg}></div>
+            <div className={style.fiveimg}>
+              <img src="https://loremflickr.com/336/220/b" alt="" />
+            </div>
           </div>
           <div className={style.four}>
-            <div className={style.threeimg}></div>
+            <div className={style.threeimg}>
+              <img src="https://loremflickr.com/336/220/wsd" alt="" />
+            </div>
           </div>
           <div className={style.five}>
-            <div className={style.fourimg}></div>
+            <div className={style.fourimg}>
+              <img src="https://loremflickr.com/336/220/fv" alt="" />
+            </div>
           </div>
           <div className={style.six}>
-            <div className={style.siximg}></div>
+            <div className={style.siximg}>
+              <img src="https://loremflickr.com/336/220/fwer" alt="" />
+            </div>
           </div>
         </Slider>
       </div>

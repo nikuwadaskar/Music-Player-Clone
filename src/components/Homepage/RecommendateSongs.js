@@ -6,9 +6,8 @@ export default function RecommendateSongs() {
     dots: false,
     infinite: true,
     slidesToShow: 5,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: false,
-    // autoplaySpeed: 2000,
     pauseOnHover: true,
     responsive: [
       {
@@ -42,22 +41,34 @@ export default function RecommendateSongs() {
     <div className={style.new}>
       <Slider {...settings}>
         <div className={style.one}>
-          <h3>1</h3>
+          <div className={style.siximg}>
+            <img src="https://loremflickr.com/336/220/m" alt="" />
+          </div>
         </div>
         <div className={style.two}>
-          <h3>2</h3>
+          <div className={style.siximg}>
+            <img src="https://loremflickr.com/336/220/p" alt="" />
+          </div>
         </div>
         <div className={style.three}>
-          <h3>3</h3>
+          <div className={style.siximg}>
+            <img src="https://loremflickr.com/336/220/ert" alt="" />
+          </div>
         </div>
         <div className={style.four}>
-          <h3>4</h3>
+          <div className={style.siximg}>
+            <img src="https://loremflickr.com/336/220/trh" alt="" />
+          </div>
         </div>
         <div className={style.five}>
-          <h3>5</h3>
+          <div className={style.siximg}>
+            <img src="https://loremflickr.com/336/220/er" alt="" />
+          </div>
         </div>
         <div className={style.six}>
-          <h3>6</h3>
+          <div className={style.siximg}>
+            <img src="https://loremflickr.com/336/220/r" alt="" />
+          </div>
         </div>
       </Slider>
     </div>

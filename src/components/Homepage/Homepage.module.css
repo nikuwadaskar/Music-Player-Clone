@@ -31,53 +31,63 @@
 .fourimg,
 .fiveimg,
 .siximg {
-  background-image: url("https://loremflickr.com/336/220/a");
+  /* background-image: url("https://loremflickr.com/336/220/a"); */
   width: 100%;
   height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
 }
 .twoimg {
-  background-image: url("https://loremflickr.com/336/220/b");
+  /* background-image: url("https://loremflickr.com/336/220/b"); */
+}
+
+.oneimg img,
+.twoimg img,
+.threeimg img,
+.fourimg img,
+.fiveimg img,
+.siximg img{
+  width: 95%;
+  height: 95%;
+  border-radius: 10px;
 }
 .threeimg {
-  background-image: url("https://loremflickr.com/336/220/c");
+  /* background-image: url("https://loremflickr.com/336/220/c"); */
 }
 .fourimg {
-  background-image: url("https://loremflickr.com/336/220/d");
+  /* background-image: url("https://loremflickr.com/336/220/d"); */
 }
 .fiveimg {
-  background-image: url("https://loremflickr.com/336/220/e");
+  /* background-image: url("https://loremflickr.com/336/220/e"); */
 }
 .siximg {
-  background-image: url("https://loremflickr.com/336/220/f");
+  /* background-image: url("https://loremflickr.com/336/220/f"); */
 }
 
 .two {
-  background-color: green;
+  /* background-color: green; */
   width: 70%;
   height: 220px;
 }
 
 .three {
-  background-color: rgb(14, 10, 65);
+  /* background-color: rgb(14, 10, 65); */
   width: 70%;
   height: 220px;
 }
 .four {
-  background-color: rgb(52, 6, 85);
+  /* background-color: rgb(52, 6, 85); */
   width: 70%;
   height: 220px;
 }
 .five {
-  background-color: rgb(171, 158, 8);
+  /* background-color: rgb(171, 158, 8); */
   width: 70%;
   height: 220px;
 }
 .six {
-  background-color: rgb(255, 77, 0);
+  /* background-color: rgb(255, 77, 0); */
   width: 70%;
   height: 220px;
 }

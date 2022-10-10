@@ -31,6 +31,18 @@
   height: 181px;
 }
 
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 9px;
+  background-color: rgb(222, 99, 12);
+  border: 2px solid rgb(4, 21, 47);
+  width: calc(100% - 15px);
+}
+
 @media screen and (max-width: 750px) {
   .container {
     display: block;

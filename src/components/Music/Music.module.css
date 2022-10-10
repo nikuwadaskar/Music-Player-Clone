@@ -4,41 +4,53 @@
   height: 100px;
 }
 
-.slick-prev,
+/* .slick-prev,
 .slick-next {
   display: none !important;
   background-color: red;
-}
+} */
 .one {
-  background-color: red;
-  height: 150px;
+  /* background-color: red; */
+  /* height: 150px; */
+  /* border-radius: 9px; */
 }
 .two {
-  background-color: green;
-  height: 150px;
+  /* background-color: green; */
+  /* height: 150px; */
 }
 
 .three {
-  background-color: rgb(14, 10, 65);
-  height: 150px;
+  /* background-color: rgb(14, 10, 65); */
+  /* height: 150px; */
 }
 .four {
-  background-color: rgb(52, 6, 85);
-  height: 150px;
+  /* background-color: rgb(52, 6, 85); */
+  /* height: 150px; */
 }
 .five {
-  background-color: rgb(171, 158, 8);
-  height: 150px;
+  /* background-color: rgb(171, 158, 8); */
+  /* height: 150px; */
 }
 .six {
-  background-color: rgb(255, 77, 0);
-  height: 150px;
+  /* background-color: rgb(255, 77, 0); */
+  /* height: 150px; */
 }
 
 .new {
-  background-color: rgb(174, 77, 35);
+  /* background-color: rgb(174, 77, 35); */
   transition: all 0.4s ease-out;
   width: calc(100vw - 120px);
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  border-radius: 9px;
+  background-color: rgb(222, 99, 12);
+  border: 2px solid rgb(4, 21, 47);
+  width: calc(100% - 15px);
 }
 
 @media screen and (max-width: 750px) {

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink, useLocation } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import style from "./Sidebar.module.css";
 import { ReactComponent as Album } from "./album_3.svg";
 import { ReactComponent as Music } from "./mymusiclogo.svg";
@@ -40,9 +40,9 @@ export default function Sidebar() {
           <Podcast /> <br /> <p> Podcast</p>
         </Link>
         <Link
-          to="/null"
+          to="/track"
           className={
-            pathname === "/navlink"
+            pathname === "/track"
               ? `${style.activelink} ${style.navlink}`
               : `${style.link}`
           }
